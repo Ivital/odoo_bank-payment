@@ -26,3 +26,80 @@ msgstr "Режим платежу"
 #: model_terms:ir.ui.view,arch_db:account_payment_partner.view_move_line_form
 msgid "Payments"
 msgstr "Платежі"
+
+#. module: account_payment_partner
+#: model_terms:ir.ui.view,arch_db:account_payment_partner.account_payment_mode_form
+msgid "# of chars"
+msgstr "Кількість символів"
+
+#. module: account_payment_partner
+#: model_terms:ir.ui.view,arch_db:account_payment_partner.report_invoice_payment_mode
+msgid "<strong>Payment Mode:</strong>"
+msgstr "<strong>Спосіб оплати:</strong>"
+
+#. module: account_payment_partner
+#: model:ir.model.fields,field_description:account_payment_partner.field_account_bank_statement_line__bank_account_required
+#: model:ir.model.fields,field_description:account_payment_partner.field_account_move__bank_account_required
+msgid "Bank Account Required"
+msgstr "Потрібен банківський рахунок"
+
+#. module: account_payment_partner
+#: model:ir.model.fields,field_description:account_payment_partner.field_res_partner__customer_payment_mode_id
+#: model:ir.model.fields,field_description:account_payment_partner.field_res_users__customer_payment_mode_id
+msgid "Customer Payment Mode"
+msgstr "Спосіб оплати клієнта"
+
+#. module: account_payment_partner
+#: model:ir.model.fields.selection,name:account_payment_partner.selection__account_payment_mode__show_bank_account__first
+msgid "First n chars"
+msgstr "Перші n символів"
+
+#. module: account_payment_partner
+#: model:ir.model.fields.selection,name:account_payment_partner.selection__account_payment_mode__show_bank_account__full
+msgid "Full"
+msgstr "Повний"
+
+#. module: account_payment_partner
+#: model:ir.model.fields,field_description:account_payment_partner.field_account_bank_statement_line__has_reconciled_items
+#: model:ir.model.fields,field_description:account_payment_partner.field_account_move__has_reconciled_items
+msgid "Has Reconciled Items"
+msgstr "Має звірені позиції"
+
+#. module: account_payment_partner
+#: model:ir.model.fields,field_description:account_payment_partner.field_res_company__keep_partner_bank_without_payment_mode
+#: model:ir.model.fields,field_description:account_payment_partner.field_res_config_settings__keep_partner_bank_without_payment_mode
+msgid "Keep Bank Account Without Payment Mode"
+msgstr "Зберігати банківський рахунок без способу оплати"
+
+#. module: account_payment_partner
+#: model:ir.model.fields.selection,name:account_payment_partner.selection__account_payment_mode__show_bank_account__last
+msgid "Last n chars"
+msgstr "Останні n символів"
+
+#. module: account_payment_partner
+#: model:ir.model.fields.selection,name:account_payment_partner.selection__account_payment_mode__show_bank_account__no
+msgid "No"
+msgstr "Ні"
+
+#. module: account_payment_partner
+#: model:ir.model.fields,field_description:account_payment_partner.field_account_bank_statement_line__partner_bank_filter_type_domain
+#: model:ir.model.fields,field_description:account_payment_partner.field_account_move__partner_bank_filter_type_domain
+msgid "Partner Bank Filter Type Domain"
+msgstr "Домен типу фільтра банку контрагента"
+
+#. module: account_payment_partner
+#: model:ir.model.fields,field_description:account_payment_partner.field_account_bank_statement_line__payment_mode_filter_type_domain
+#: model:ir.model.fields,field_description:account_payment_partner.field_account_move__payment_mode_filter_type_domain
+msgid "Payment Mode Filter Type Domain"
+msgstr "Домен типу фільтра способу оплати"
+
+#. module: account_payment_partner
+#: model:ir.model.fields,field_description:account_payment_partner.field_account_invoice_report__payment_mode_id
+msgid "Payment mode"
+msgstr "Спосіб оплати"
+
+#. module: account_payment_partner
+#: model:ir.model.fields,field_description:account_payment_partner.field_res_partner__supplier_payment_mode_id
+#: model:ir.model.fields,field_description:account_payment_partner.field_res_users__supplier_payment_mode_id
+msgid "Supplier Payment Mode"
+msgstr "Спосіб оплати постачальника"

@@ -18,3 +18,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_payment_sale.field_sale_report__payment_mode_id
 msgid "Payment Mode"
 msgstr "Режим платежу"
+
+#. module: account_payment_sale
+#: model_terms:ir.ui.view,arch_db:account_payment_sale.report_sale_payment_mode
+msgid "<strong>Payment Mode:</strong>"
+msgstr "<strong>Спосіб оплати:</strong>"
