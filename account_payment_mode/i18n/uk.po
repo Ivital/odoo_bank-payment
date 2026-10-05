@@ -169,3 +169,34 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_payment_mode.field_account_payment_mode__fixed_journal_id
 msgid "Fixed Bank Journal"
 msgstr "Фіксований банківський журнал"
+
+#. module: account_payment_mode
+#: model:ir.model.fields,help:account_payment_mode.field_account_payment_mode__bank_account_link
+msgid ""
+"For payment modes that are always attached to the same bank account of your "
+"company (such as wire transfer from customers or SEPA direct debit from "
+"suppliers), select 'Fixed'. For payment modes that are not always attached "
+"to the same bank account (such as SEPA Direct debit for customers, wire "
+"transfer to suppliers), you should select 'Variable', which means that you "
+"will select the bank account on the payment order. If your company only has "
+"one bank account, you should always select 'Fixed'."
+msgstr ""
+"Для способів оплати, які завжди прив'язані до одного й того самого "
+"банківського рахунку вашої компанії (наприклад, банківський переказ від "
+"клієнтів або прямий дебет SEPA від постачальників), виберіть 'Фіксований'. "
+"Для способів оплати, які не завжди прив'язані до одного банківського рахунку"
+" (наприклад, прямий дебет SEPA для клієнтів або банківський переказ "
+"постачальникам), слід вибрати 'Змінний': банківський рахунок тоді "
+"вибиратиметься у платіжному дорученні. Якщо ваша компанія має лише один "
+"банківський рахунок, завжди вибирайте 'Фіксований'."
+
+#. module: account_payment_mode
+#: model:ir.model.fields,help:account_payment_mode.field_account_payment_method__code
+#: model:ir.model.fields,help:account_payment_mode.field_account_payment_mode__payment_method_code
+msgid ""
+"This code is used in the code of the Odoo module that handles this payment "
+"method. Therefore, if you change it, the generation of the payment file may "
+"fail."
+msgstr ""
+"Цей код використовується в коді модуля Odoo, що обробляє цей спосіб платежу."
+" Тому його зміна може призвести до помилки створення платіжного файлу."
