@@ -201,3 +201,29 @@ msgstr ""
 "Якщо ввімкнено, рахунки без способу оплати зберігатимуть банківський "
 "рахунок, автоматично вибраний Odoo. Якщо вимкнено, без способу оплати "
 "банківський рахунок очищатиметься."
+
+#. module: account_payment_partner
+#. odoo-python
+#: code:addons/account_payment_partner/tests/test_account_payment_partner.py:0
+msgid "No Chart of Account Template has been defined !"
+msgstr "Не визначено шаблон плану рахунків!"
+
+#. module: account_payment_partner
+#. odoo-python
+#: code:addons/account_payment_partner/models/account_payment_mode.py:0
+msgid ""
+"You cannot change the Company. There exists at least one Journal Entry with "
+"this Payment Mode, already assigned to another Company."
+msgstr ""
+"Не можна змінити компанію. Існує щонайменше одне журнальне проведення з цим "
+"режимом оплати, уже призначене іншій компанії."
+
+#. module: account_payment_partner
+#. odoo-python
+#: code:addons/account_payment_partner/models/account_payment_mode.py:0
+msgid ""
+"You cannot change the Company. There exists at least one Journal Item with "
+"this Payment Mode, already assigned to another Company."
+msgstr ""
+"Не можна змінити компанію. Існує щонайменше один елемент журналу з цим "
+"режимом оплати, уже призначений іншій компанії."

@@ -39,3 +39,15 @@ msgstr ""
 "Виберіть банківський рахунок постачальника, на який ваша компанія має "
 "здійснити платіж. Це поле копіюється з партнера та буде скопійоване до "
 "рахунку постачальника."
+
+#. module: account_payment_purchase
+#. odoo-python
+#: code:addons/account_payment_purchase/models/account_move.py:0
+msgid "Selected purchase order have different payment mode."
+msgstr "Вибрані замовлення на закупівлю мають різні режими оплати."
+
+#. module: account_payment_purchase
+#. odoo-python
+#: code:addons/account_payment_purchase/models/account_move.py:0
+msgid "Selected purchase order have different supplier bank."
+msgstr "Вибрані замовлення на закупівлю мають різні банки постачальника."

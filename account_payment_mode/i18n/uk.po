@@ -200,3 +200,68 @@ msgid ""
 msgstr ""
 "Цей код використовується в коді модуля Odoo, що обробляє цей спосіб платежу."
 " Тому його зміна може призвести до помилки створення платіжного файлу."
+
+#. module: account_payment_mode
+#. odoo-python
+#: code:addons/account_payment_mode/models/account_payment_mode.py:0
+msgid ""
+"On the payment mode %(name)s, the bank account link is 'Fixed' but the fixed"
+" bank journal is not set"
+msgstr ""
+"У режимі оплати %(name)s зв’язок банківського рахунку — «Фіксований», але "
+"фіксований банківський журнал не задано"
+
+#. module: account_payment_mode
+#. odoo-python
+#: code:addons/account_payment_mode/models/account_payment_mode.py:0
+msgid ""
+"On the payment mode %(paymode)s, the payment method is %(paymethod)s (it is "
+"in fact a debit method), but this debit method is not part of the debit "
+"methods of the fixed bank journal %(journal)s"
+msgstr ""
+"У режимі оплати %(paymode)s спосіб оплати %(paymethod)s фактично є способом "
+"списання, але цей спосіб списання не входить до способів списання "
+"фіксованого банківського журналу %(journal)s"
+
+#. module: account_payment_mode
+#. odoo-python
+#: code:addons/account_payment_mode/models/account_payment_mode.py:0
+msgid ""
+"On the payment mode %(paymode)s, the payment method is %(paymethod)s, but "
+"this payment method is not part of the payment methods of the fixed bank "
+"journal %(journal)s"
+msgstr ""
+"У режимі оплати %(paymode)s використовується спосіб оплати %(paymethod)s, "
+"але цей спосіб оплати не належить до способів оплати фіксованого "
+"банківського журналу %(journal)s"
+
+#. module: account_payment_mode
+#. odoo-python
+#: code:addons/account_payment_mode/models/account_journal.py:0
+msgid ""
+"The company of the journal  %(journal)s does not match with the company of "
+"the payment mode  %(paymode)s where it is being used in the Allowed Bank "
+"Journals."
+msgstr ""
+"Компанія журналу %(journal)s не відповідає компанії режиму оплати "
+"%(paymode)s, де він використовується в дозволених банківських журналах."
+
+#. module: account_payment_mode
+#. odoo-python
+#: code:addons/account_payment_mode/models/account_journal.py:0
+msgid ""
+"The company of the journal %(journal)s does not match with the company of "
+"the payment mode %(paymode)s where it is being used as Fixed Bank Journal."
+msgstr ""
+"Компанія журналу %(journal)s не відповідає компанії режиму оплати "
+"%(paymode)s, де він використовується як фіксований банківський журнал."
+
+#. module: account_payment_mode
+#. odoo-python
+#: code:addons/account_payment_mode/models/account_payment_mode.py:0
+msgid ""
+"The company of the payment mode %(paymode)s, does not match with one of the "
+"Allowed Bank Journals."
+msgstr ""
+"Компанія режиму оплати %(paymode)s не відповідає одному з дозволених "
+"банківських журналів."
