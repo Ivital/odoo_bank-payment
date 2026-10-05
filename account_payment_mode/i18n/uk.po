@@ -1,0 +1,99 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: account_payment_mode
+#: model:ir.model.fields,field_description:account_payment_mode.field_account_payment_method__active
+#: model:ir.model.fields,field_description:account_payment_mode.field_account_payment_mode__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: account_payment_mode
+#: model_terms:ir.ui.view,arch_db:account_payment_mode.account_payment_method_form
+#: model_terms:ir.ui.view,arch_db:account_payment_mode.account_payment_mode_form
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: account_payment_mode
+#: model:ir.model.fields,field_description:account_payment_mode.field_account_payment_mode__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: account_payment_mode
+#: model:ir.model.fields,field_description:account_payment_mode.field_account_payment_mode__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: account_payment_mode
+#: model:ir.model.fields,field_description:account_payment_mode.field_account_payment_mode__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: account_payment_mode
+#: model:ir.model.fields,field_description:account_payment_mode.field_account_payment_mode__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: account_payment_mode
+#: model:ir.model.fields.selection,name:account_payment_mode.selection__account_payment_mode__bank_account_link__fixed
+msgid "Fixed"
+msgstr "Фіксований"
+
+#. module: account_payment_mode
+#: model_terms:ir.ui.view,arch_db:account_payment_mode.account_payment_method_search
+#: model_terms:ir.ui.view,arch_db:account_payment_mode.account_payment_mode_search
+msgid "Inbound"
+msgstr "Вхідні"
+
+#. module: account_payment_mode
+#: model:ir.model.fields,field_description:account_payment_mode.field_account_payment_mode__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: account_payment_mode
+#: model:ir.model.fields,field_description:account_payment_mode.field_account_payment_mode__note
+#: model_terms:ir.ui.view,arch_db:account_payment_mode.account_payment_mode_form
+msgid "Note"
+msgstr "Нотатка"
+
+#. module: account_payment_mode
+#: model_terms:ir.ui.view,arch_db:account_payment_mode.account_payment_method_search
+#: model_terms:ir.ui.view,arch_db:account_payment_mode.account_payment_mode_search
+msgid "Outbound"
+msgstr "Вихідні"
+
+#. module: account_payment_mode
+#: model:ir.actions.act_window,name:account_payment_mode.account_payment_method_action
+#: model:ir.model,name:account_payment_mode.model_account_payment_method
+#: model:ir.ui.menu,name:account_payment_mode.account_payment_method_menu
+msgid "Payment Methods"
+msgstr "Способи оплати"
+
+#. module: account_payment_mode
+#: model:ir.actions.act_window,name:account_payment_mode.account_payment_mode_action
+#: model:ir.model,name:account_payment_mode.model_account_payment_mode
+#: model:ir.ui.menu,name:account_payment_mode.account_payment_mode_menu
+msgid "Payment Modes"
+msgstr "Режими платежів"
+
+#. module: account_payment_mode
+#: model:ir.model.fields,field_description:account_payment_mode.field_account_payment_mode__payment_type
+#: model_terms:ir.ui.view,arch_db:account_payment_mode.account_payment_method_search
+msgid "Payment Type"
+msgstr "Тип платежу"
+
+#. module: account_payment_mode
+#: model:ir.model.fields,field_description:account_payment_mode.field_account_payment_mode__sequence
+msgid "Sequence"
+msgstr "Послідовність"
