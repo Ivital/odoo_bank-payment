@@ -103,3 +103,64 @@ msgstr "Спосіб оплати"
 #: model:ir.model.fields,field_description:account_payment_partner.field_res_users__supplier_payment_mode_id
 msgid "Supplier Payment Mode"
 msgstr "Спосіб оплати постачальника"
+
+#. module: account_payment_partner
+#: model:ir.model.fields,field_description:account_payment_partner.field_account_payment_mode__show_bank_account_chars
+msgid "# of digits for customer bank account"
+msgstr "Кількість цифр у банківському рахунку клієнта"
+
+#. module: account_payment_partner
+#: model_terms:ir.ui.view,arch_db:account_payment_partner.report_invoice_payment_mode
+msgid "<strong>Bank Account:</strong>"
+msgstr "<strong>Банківський рахунок:</strong>"
+
+#. module: account_payment_partner
+#: model:ir.model.fields,help:account_payment_partner.field_account_bank_statement_line__bank_account_required
+#: model:ir.model.fields,help:account_payment_partner.field_account_move__bank_account_required
+msgid ""
+"Activate this option if this payment method requires you to know the bank "
+"account number of your customer or supplier."
+msgstr ""
+"Увімкніть цю опцію, якщо цей спосіб оплати вимагає знати номер банківського "
+"рахунку клієнта або постачальника."
+
+#. module: account_payment_partner
+#: model:ir.model.fields,field_description:account_payment_partner.field_account_payment_mode__show_bank_account_from_journal
+msgid "Bank account from journals"
+msgstr "Банківський рахунок із журналів"
+
+#. module: account_payment_partner
+#: model_terms:ir.ui.view,arch_db:account_payment_partner.res_config_settings_view_form
+msgid ""
+"Keep the bank account auto-selected by Odoo on invoices without a payment "
+"mode. Disable to clear the bank account when no payment mode is set."
+msgstr ""
+"Зберігати банківський рахунок, автоматично вибраний Odoo в рахунках без "
+"способу оплати. Вимкніть, щоб очищати рахунок, коли спосіб оплати не задано."
+
+#. module: account_payment_partner
+#: model:ir.model.fields,field_description:account_payment_partner.field_account_payment_mode__refund_payment_mode_id
+msgid "Payment mode for refunds"
+msgstr "Спосіб оплати для повернень"
+
+#. module: account_payment_partner
+#: model:ir.model.fields,help:account_payment_partner.field_res_partner__customer_payment_mode_id
+#: model:ir.model.fields,help:account_payment_partner.field_res_users__customer_payment_mode_id
+msgid "Select the default payment mode for this customer."
+msgstr "Виберіть типовий режим оплати для цього клієнта."
+
+#. module: account_payment_partner
+#: model:ir.model.fields,help:account_payment_partner.field_res_partner__supplier_payment_mode_id
+#: model:ir.model.fields,help:account_payment_partner.field_res_users__supplier_payment_mode_id
+msgid "Select the default payment mode for this supplier."
+msgstr "Виберіть типовий режим оплати для цього постачальника."
+
+#. module: account_payment_partner
+#: model:ir.model.fields,field_description:account_payment_partner.field_account_payment_mode__show_bank_account
+msgid "Show Bank Account"
+msgstr "Показувати банківський рахунок"
+
+#. module: account_payment_partner
+#: model_terms:ir.ui.view,arch_db:account_payment_partner.account_payment_mode_form
+msgid "Show bank account in invoice report"
+msgstr "Показувати банківський рахунок у звіті рахунку"

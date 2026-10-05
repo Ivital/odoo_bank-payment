@@ -155,3 +155,17 @@ msgstr "Способи оплати"
 #: model:ir.model.fields.selection,name:account_payment_mode.selection__account_payment_mode__bank_account_link__variable
 msgid "Variable"
 msgstr "Змінний"
+
+#. module: account_payment_mode
+#: model:ir.model.fields,help:account_payment_mode.field_account_payment_method__bank_account_required
+msgid ""
+"Activate this option if this payment method requires you to know the bank "
+"account number of your customer or supplier."
+msgstr ""
+"Увімкніть цю опцію, якщо цей спосіб оплати вимагає знати номер банківського "
+"рахунку клієнта або постачальника."
+
+#. module: account_payment_mode
+#: model:ir.model.fields,field_description:account_payment_mode.field_account_payment_mode__fixed_journal_id
+msgid "Fixed Bank Journal"
+msgstr "Фіксований банківський журнал"

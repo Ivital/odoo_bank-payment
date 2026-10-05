@@ -18,3 +18,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_invoice_select_for_payment.field_account_move__selected_for_payment
 msgid "To Pay"
 msgstr "До сплати"
+
+#. module: account_invoice_select_for_payment
+#: model_terms:ir.ui.view,arch_db:account_invoice_select_for_payment.view_account_invoice_filter
+msgid "Not selected for payment"
+msgstr "Не вибрано для оплати"
+
+#. module: account_invoice_select_for_payment
+#: model_terms:ir.ui.view,arch_db:account_invoice_select_for_payment.view_account_invoice_filter
+msgid "Selected for payment"
+msgstr "Вибрано для оплати"
